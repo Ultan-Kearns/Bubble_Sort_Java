@@ -15,7 +15,8 @@ public class Java_Sort
 					array[j] = temp;
 				}
 			}
-  	}
+  		}
+		System.out.println("\nSorted Array: \n");
 		for(int i = 0; i < array.length; i++)
 		{
 			System.out.print(array[i] + " ");
